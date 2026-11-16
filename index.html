@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flavin Web Company | Premium Web Development, SEO & Digital Marketing</title>
+  <meta name="description" content="Flavin Web Company crafts premium websites, drives SEO rankings, runs high-performance Meta Ads, and delivers full-stack digital marketing solutions that grow your business." />
+  <meta name="keywords" content="web development, SEO, meta ads, digital marketing, website design, Flavin Web Company" />
+  <meta property="og:title" content="Flavin Web Company | Premium Web Development & Digital Marketing" />
+  <meta property="og:description" content="We build stunning websites and grow your digital presence through SEO, Meta Ads & performance marketing." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" id="nav-logo">
+        <div class="logo-icon">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+            <defs>
+              <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#8B5CF6"/>
+                <stop offset="50%" style="stop-color:#06B6D4"/>
+                <stop offset="100%" style="stop-color:#EC4899"/>
+              </linearGradient>
+            </defs>
+            <path d="M6 6 L18 2 L30 6 L30 20 C30 28 18 34 18 34 C18 34 6 28 6 20 Z" fill="url(#logoGrad)" opacity="0.9"/>
+            <path d="M12 16 L16 20 L24 12" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <span class="logo-text">Flavin<span class="logo-accent">Web</span></span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active" id="nav-home">Home</a></li>
+        <li><a href="#services" class="nav-link" id="nav-services">Services</a></li>
+        <li><a href="#about" class="nav-link" id="nav-about">About</a></li>
+        <li><a href="#portfolio" class="nav-link" id="nav-portfolio">Portfolio</a></li>
+        <li><a href="#stats" class="nav-link" id="nav-stats">Results</a></li>
+        <li><a href="#contact" class="nav-link" id="nav-contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn-nav-cta" id="nav-cta-btn">Get Free Audit</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="hero_bg.png" alt="Background" class="hero-bg-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="particles" id="particles"></div>
+    <div class="hero-content">
+      <div class="hero-badge" id="hero-badge">
+        <span class="badge-dot"></span>
+        🚀 Premium Digital Agency
+      </div>
+      <h1 class="hero-headline" id="hero-headline">
+        We Build Websites<br/>
+        <span class="gradient-text">That Dominate</span><br/>
+        The Internet
+      </h1>
+      <p class="hero-subtext" id="hero-subtext">
+        Flavin Web Company crafts stunning, high-performance websites and powers your brand with cutting-edge SEO, Meta Ads, and digital marketing strategies that deliver <strong>real results</strong>.
+      </p>
+      <div class="hero-ctas" id="hero-ctas">
+        <a href="#contact" class="btn-primary" id="hero-primary-cta">
+          <span>Start Your Project</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#portfolio" class="btn-ghost" id="hero-ghost-cta">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+          <span>View Our Work</span>
+        </a>
+      </div>
+      <div class="hero-trust" id="hero-trust">
+        <div class="trust-avatars">
+          <div class="avatar av1"></div>
+          <div class="avatar av2"></div>
+          <div class="avatar av3"></div>
+          <div class="avatar av4"></div>
+        </div>
+        <div class="trust-text">
+          <strong>500+</strong> happy clients worldwide
+          <div class="trust-stars">★★★★★</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint" id="hero-scroll">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+
+    <!-- Floating cards -->
+    <div class="hero-float-card fc1" id="float-card-1">
+      <div class="fc-icon">📈</div>
+      <div class="fc-info">
+        <strong>+340%</strong>
+        <span>Avg. Traffic Growth</span>
+      </div>
+    </div>
+    <div class="hero-float-card fc2" id="float-card-2">
+      <div class="fc-icon">🏆</div>
+      <div class="fc-info">
+        <strong>#1</strong>
+        <span>Google Rankings</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MARQUEE STRIP ========== -->
+  <div class="marquee-strip" id="marquee-strip">
+    <div class="marquee-track">
+      <span>Web Development</span><span class="sep">✦</span>
+      <span>SEO Optimization</span><span class="sep">✦</span>
+      <span>Meta Ads</span><span class="sep">✦</span>
+      <span>Digital Marketing</span><span class="sep">✦</span>
+      <span>UI/UX Design</span><span class="sep">✦</span>
+      <span>E-Commerce</span><span class="sep">✦</span>
+      <span>Performance Marketing</span><span class="sep">✦</span>
+      <span>Brand Strategy</span><span class="sep">✦</span>
+      <span>Web Development</span><span class="sep">✦</span>
+      <span>SEO Optimization</span><span class="sep">✦</span>
+      <span>Meta Ads</span><span class="sep">✦</span>
+      <span>Digital Marketing</span><span class="sep">✦</span>
+      <span>UI/UX Design</span><span class="sep">✦</span>
+      <span>E-Commerce</span><span class="sep">✦</span>
+      <span>Performance Marketing</span><span class="sep">✦</span>
+      <span>Brand Strategy</span><span class="sep">✦</span>
+    </div>
+  </div>
+
+  <!-- ========== SERVICES SECTION ========== -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">What We Do</div>
+        <h2 class="section-title">Services That <span class="gradient-text">Scale</span> Your Business</h2>
+        <p class="section-desc">From concept to conversion — we handle every aspect of your digital presence with precision and creativity.</p>
+      </div>
+
+      <div class="services-grid" id="services-grid">
+
+        <div class="service-card card-featured" id="service-webdev">
+          <div class="card-glow"></div>
+          <div class="service-icon-wrap">
+            <div class="service-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M7 8l3 3-3 3M13 14h4"/></svg>
+            </div>
+          </div>
+          <h3>Web Development</h3>
+          <p>Blazing-fast, pixel-perfect websites and web apps built with modern frameworks. From landing pages to full-scale platforms, we code quality.</p>
+          <ul class="service-features">
+            <li>✓ Custom Design & Development</li>
+            <li>✓ React, Next.js, WordPress</li>
+            <li>✓ Mobile-First Responsive</li>
+            <li>✓ Speed & Performance Optimized</li>
+          </ul>
+          <a href="#contact" class="service-link" id="webdev-link">Explore Service →</a>
+        </div>
+
+        <div class="service-card" id="service-seo">
+          <div class="card-glow"></div>
+          <div class="service-icon-wrap">
+            <img src="services_seo.png" alt="SEO Service" class="service-img-icon" />
+          </div>
+          <h3>SEO Optimization</h3>
+          <p>Dominate Google rankings with technical SEO, content strategy, and link building that drives organic traffic that converts.</p>
+          <ul class="service-features">
+            <li>✓ Technical SEO Audit</li>
+            <li>✓ Keyword Research & Strategy</li>
+            <li>✓ On-Page & Off-Page SEO</li>
+            <li>✓ Monthly Analytics Reports</li>
+          </ul>
+          <a href="#contact" class="service-link" id="seo-link">Explore Service →</a>
+        </div>
+
+        <div class="service-card" id="service-metaads">
+          <div class="card-glow"></div>
+          <div class="service-icon-wrap">
+            <div class="service-icon meta-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/></svg>
+            </div>
+          </div>
+          <h3>Meta Ads</h3>
+          <p>High-ROI Facebook & Instagram ad campaigns engineered for maximum reach, engagement, and lead generation for your business.</p>
+          <ul class="service-features">
+            <li>✓ Campaign Strategy & Setup</li>
+            <li>✓ Creative Ad Design</li>
+            <li>✓ Audience Targeting</li>
+            <li>✓ A/B Testing & Optimization</li>
+          </ul>
+          <a href="#contact" class="service-link" id="metaads-link">Explore Service →</a>
+        </div>
+
+        <div class="service-card" id="service-marketing">
+          <div class="card-glow"></div>
+          <div class="service-icon-wrap">
+            <div class="service-icon marketing-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+          </div>
+          <h3>Digital Marketing</h3>
+          <p>Full-funnel marketing strategies including content marketing, email campaigns, social media management, and brand development.</p>
+          <ul class="service-features">
+            <li>✓ Social Media Management</li>
+            <li>✓ Email Marketing Campaigns</li>
+            <li>✓ Content Strategy</li>
+            <li>✓ Brand Identity & Growth</li>
+          </ul>
+          <a href="#contact" class="service-link" id="marketing-link">Explore Service →</a>
+        </div>
+
+        <div class="service-card" id="service-ecomm">
+          <div class="card-glow"></div>
+          <div class="service-icon-wrap">
+            <div class="service-icon ecomm-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+            </div>
+          </div>
+          <h3>E-Commerce Solutions</h3>
+          <p>Powerful online stores built on Shopify, WooCommerce, or custom platforms — optimized to convert visitors into loyal customers.</p>
+          <ul class="service-features">
+            <li>✓ Shopify & WooCommerce</li>
+            <li>✓ Payment Gateway Integration</li>
+            <li>✓ Inventory Management</li>
+            <li>✓ Conversion Optimization</li>
+          </ul>
+          <a href="#contact" class="service-link" id="ecomm-link">Explore Service →</a>
+        </div>
+
+        <div class="service-card card-cta-pill" id="service-consult">
+          <div class="card-glow"></div>
+          <div class="service-cta-inner">
+            <div class="cta-pill-icon">🎯</div>
+            <h3>Not Sure Where to Start?</h3>
+            <p>Book a free 30-minute consultation with our experts and get a custom growth strategy for your business.</p>
+            <a href="#contact" class="btn-primary" id="consult-cta-btn">Book Free Consultation</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="about-img-wrap" id="about-img">
+            <img src="about_team.png" alt="Flavin Web Company Team" class="about-team-img" />
+            <div class="about-badge-overlay">
+              <div class="about-stat-badge" id="ab1">
+                <strong>8+</strong>
+                <span>Years Experience</span>
+              </div>
+              <div class="about-stat-badge" id="ab2">
+                <strong>500+</strong>
+                <span>Projects Done</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-content">
+          <div class="section-tag">Who We Are</div>
+          <h2 class="section-title">Digital Experts Who <span class="gradient-text">Truly Care</span> About Your Success</h2>
+          <p class="about-desc">At Flavin Web Company, we're not just developers — we're growth partners. Our team of designers, developers, SEO specialists, and marketing strategists work together to build digital experiences that don't just look amazing but deliver measurable business results.</p>
+          <p class="about-desc">From startups to established enterprises, we've helped hundreds of businesses unlock their digital potential through smart design, strategic marketing, and data-driven decisions.</p>
+
+          <div class="about-values" id="about-values">
+            <div class="value-item">
+              <div class="value-icon">⚡</div>
+              <div>
+                <strong>Speed & Performance</strong>
+                <p>We build lightning-fast websites that keep users engaged and Google happy.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">🎨</div>
+              <div>
+                <strong>Creative Excellence</strong>
+                <p>Stunning designs that capture your brand essence and impress your audience.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">📊</div>
+              <div>
+                <strong>Data-Driven Results</strong>
+                <p>Every decision is backed by analytics, A/B testing, and performance data.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn-primary" id="about-cta-btn">Work With Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PORTFOLIO SECTION ========== -->
+  <section class="portfolio-section" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Our Work</div>
+        <h2 class="section-title">Projects That <span class="gradient-text">Speak for Themselves</span></h2>
+        <p class="section-desc">A glimpse into some of the digital experiences we've crafted for our clients across industries.</p>
+      </div>
+
+      <div class="portfolio-filter" id="portfolio-filter">
+        <button class="filter-btn active" data-filter="all" id="filter-all">All</button>
+        <button class="filter-btn" data-filter="web" id="filter-web">Web Dev</button>
+        <button class="filter-btn" data-filter="seo" id="filter-seo">SEO</button>
+        <button class="filter-btn" data-filter="ads" id="filter-ads">Meta Ads</button>
+      </div>
+
+      <div class="portfolio-grid" id="portfolio-grid">
+
+        <div class="portfolio-card" data-category="web" id="port-1">
+          <div class="port-card-inner">
+            <div class="port-mockup">
+              <div class="mockup-browser">
+                <div class="browser-bar"><span></span><span></span><span></span></div>
+                <div class="browser-screen screen-1">
+                  <div class="mock-nav"></div>
+                  <div class="mock-hero"></div>
+                  <div class="mock-cards">
+                    <div class="mock-card"></div>
+                    <div class="mock-card"></div>
+                    <div class="mock-card"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="port-info">
+              <div class="port-tag">Web Development</div>
+              <h3>LuxeStore E-Commerce</h3>
+              <p>Custom Shopify store with advanced filtering, wishlist, and seamless checkout flow.</p>
+              <div class="port-metrics">
+                <div class="metric"><strong>+280%</strong><span>Revenue Increase</span></div>
+                <div class="metric"><strong>2.1s</strong><span>Load Time</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="seo" id="port-2">
+          <div class="port-card-inner">
+            <div class="port-mockup seo-mockup">
+              <div class="seo-chart">
+                <div class="chart-bar" style="height:30%"></div>
+                <div class="chart-bar" style="height:50%"></div>
+                <div class="chart-bar" style="height:40%"></div>
+                <div class="chart-bar" style="height:70%"></div>
+                <div class="chart-bar" style="height:60%"></div>
+                <div class="chart-bar" style="height:90%"></div>
+                <div class="chart-bar" style="height:100%"></div>
+              </div>
+              <div class="seo-keywords">
+                <div class="keyword-tag rank1">🥇 #1 Rank</div>
+                <div class="keyword-tag rank2">📈 +890%</div>
+                <div class="keyword-tag rank3">🔍 Organic</div>
+              </div>
+            </div>
+            <div class="port-info">
+              <div class="port-tag">SEO Campaign</div>
+              <h3>TechPro B2B Platform</h3>
+              <p>Comprehensive SEO overhaul that brought 890% organic traffic growth in 6 months.</p>
+              <div class="port-metrics">
+                <div class="metric"><strong>+890%</strong><span>Organic Traffic</span></div>
+                <div class="metric"><strong>47</strong><span>Keywords #1</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="ads" id="port-3">
+          <div class="port-card-inner">
+            <div class="port-mockup ads-mockup">
+              <div class="ads-phone">
+                <div class="phone-screen">
+                  <div class="ig-post">
+                    <div class="ig-header"><div class="ig-avatar"></div><div class="ig-brand"></div></div>
+                    <div class="ig-image"></div>
+                    <div class="ig-actions">❤️ 2.4K &nbsp; 💬 180</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="port-info">
+              <div class="port-tag">Meta Ads</div>
+              <h3>FitLife Supplements</h3>
+              <p>Facebook & Instagram ad campaigns generating 400% ROAS for a DTC health brand.</p>
+              <div class="port-metrics">
+                <div class="metric"><strong>400%</strong><span>ROAS</span></div>
+                <div class="metric"><strong>$0.42</strong><span>Cost Per Lead</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="web" id="port-4">
+          <div class="port-card-inner">
+            <div class="port-mockup">
+              <div class="mockup-browser">
+                <div class="browser-bar"><span></span><span></span><span></span></div>
+                <div class="browser-screen screen-2">
+                  <div class="mock-nav dark-nav"></div>
+                  <div class="mock-split">
+                    <div class="mock-left"></div>
+                    <div class="mock-right">
+                      <div class="mock-line"></div>
+                      <div class="mock-line short"></div>
+                      <div class="mock-btn-sm"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="port-info">
+              <div class="port-tag">Web Development</div>
+              <h3>Nexus SaaS Dashboard</h3>
+              <p>Complex analytics dashboard built with React, with real-time data visualization and role-based access.</p>
+              <div class="port-metrics">
+                <div class="metric"><strong>12K+</strong><span>Daily Users</span></div>
+                <div class="metric"><strong>99.9%</strong><span>Uptime</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== STATS SECTION ========== -->
+  <section class="stats-section" id="stats">
+    <div class="stats-bg"></div>
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Our Impact</div>
+        <h2 class="section-title">Numbers That <span class="gradient-text">Don't Lie</span></h2>
+      </div>
+      <div class="stats-grid" id="stats-grid">
+        <div class="stat-item" id="stat-1">
+          <div class="stat-icon">🌐</div>
+          <div class="stat-number" data-target="500">0</div>
+          <div class="stat-label">Websites Launched</div>
+        </div>
+        <div class="stat-item" id="stat-2">
+          <div class="stat-icon">📈</div>
+          <div class="stat-number" data-target="340">0</div>
+          <div class="stat-label">Avg. Traffic Growth %</div>
+        </div>
+        <div class="stat-item" id="stat-3">
+          <div class="stat-icon">🏆</div>
+          <div class="stat-number" data-target="98">0</div>
+          <div class="stat-label">Client Satisfaction %</div>
+        </div>
+        <div class="stat-item" id="stat-4">
+          <div class="stat-icon">💰</div>
+          <div class="stat-number" data-target="12">0</div>
+          <div class="stat-label">Million $ Revenue Generated</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROCESS SECTION ========== -->
+  <section class="process-section" id="process">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">How We Work</div>
+        <h2 class="section-title">Our <span class="gradient-text">Proven Process</span></h2>
+        <p class="section-desc">A streamlined, transparent workflow designed to deliver exceptional results on time and on budget.</p>
+      </div>
+
+      <div class="process-steps" id="process-steps">
+        <div class="process-line"></div>
+
+        <div class="process-step" id="step-1">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <div class="step-icon">🔍</div>
+            <h3>Discovery & Strategy</h3>
+            <p>We deep-dive into your business, goals, and target audience to craft a laser-focused digital strategy.</p>
+          </div>
+        </div>
+
+        <div class="process-step" id="step-2">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <div class="step-icon">🎨</div>
+            <h3>Design & Prototype</h3>
+            <p>Our designers create stunning wireframes and high-fidelity mockups for your approval before we code a single line.</p>
+          </div>
+        </div>
+
+        <div class="process-step" id="step-3">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <div class="step-icon">⚡</div>
+            <h3>Build & Optimize</h3>
+            <p>Developers build your project with clean, scalable code — optimized for speed, SEO, and conversions from day one.</p>
+          </div>
+        </div>
+
+        <div class="process-step" id="step-4">
+          <div class="step-number">04</div>
+          <div class="step-content">
+            <div class="step-icon">🚀</div>
+            <h3>Launch & Grow</h3>
+            <p>We launch, monitor performance, and continuously optimize your marketing campaigns for maximum ROI.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Client Stories</div>
+        <h2 class="section-title">What Our <span class="gradient-text">Clients Say</span></h2>
+      </div>
+
+      <div class="testimonials-track" id="testimonials-track">
+        <div class="testimonial-card" id="test-1">
+          <div class="test-quote">❝</div>
+          <p>"Flavin Web Company completely transformed our online presence. Our website now ranks #1 for our key terms and our leads have tripled. Best investment we've ever made!"</p>
+          <div class="test-author">
+            <div class="test-avatar" style="background: linear-gradient(135deg, #8B5CF6, #EC4899);">RS</div>
+            <div class="test-info">
+              <strong>Rahul Sharma</strong>
+              <span>CEO, TechPro Solutions</span>
+            </div>
+            <div class="test-stars">★★★★★</div>
+          </div>
+        </div>
+
+        <div class="testimonial-card" id="test-2">
+          <div class="test-quote">❝</div>
+          <p>"The Meta Ads campaigns they ran for us generated 400% ROAS in just 60 days. The team is incredibly talented and always proactive with new ideas."</p>
+          <div class="test-author">
+            <div class="test-avatar" style="background: linear-gradient(135deg, #06B6D4, #3B82F6);">PK</div>
+            <div class="test-info">
+              <strong>Priya Kumar</strong>
+              <span>Founder, FitLife India</span>
+            </div>
+            <div class="test-stars">★★★★★</div>
+          </div>
+        </div>
+
+        <div class="testimonial-card" id="test-3">
+          <div class="test-quote">❝</div>
+          <p>"From the very first call, Flavin's team understood our vision perfectly. They delivered a website that exceeded our expectations and saw a 280% boost in online sales."</p>
+          <div class="test-author">
+            <div class="test-avatar" style="background: linear-gradient(135deg, #F59E0B, #EF4444);">AM</div>
+            <div class="test-info">
+              <strong>Arjun Mehta</strong>
+              <span>Director, LuxeStore</span>
+            </div>
+            <div class="test-stars">★★★★★</div>
+          </div>
+        </div>
+
+        <div class="testimonial-card" id="test-4">
+          <div class="test-quote">❝</div>
+          <p>"Professional, creative, and results-driven. Flavin Web Company is the only agency I'd recommend for anyone looking to dominate their industry online."</p>
+          <div class="test-author">
+            <div class="test-avatar" style="background: linear-gradient(135deg, #10B981, #06B6D4);">SN</div>
+            <div class="test-info">
+              <strong>Sarah Nair</strong>
+              <span>CMO, Nexus Platforms</span>
+            </div>
+            <div class="test-stars">★★★★★</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="test-nav" id="test-nav">
+        <button class="test-nav-btn" id="test-prev" aria-label="Previous">←</button>
+        <div class="test-dots">
+          <span class="test-dot active" data-idx="0"></span>
+          <span class="test-dot" data-idx="1"></span>
+          <span class="test-dot" data-idx="2"></span>
+          <span class="test-dot" data-idx="3"></span>
+        </div>
+        <button class="test-nav-btn" id="test-next" aria-label="Next">→</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PRICING SECTION ========== -->
+  <section class="pricing-section" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Pricing Plans</div>
+        <h2 class="section-title">Transparent Pricing. <span class="gradient-text">No Surprises.</span></h2>
+        <p class="section-desc">Choose a plan that fits your business goals, or let us build a custom package just for you.</p>
+      </div>
+
+      <div class="pricing-toggle" id="pricing-toggle">
+        <span>Monthly</span>
+        <label class="toggle-switch" for="price-toggle">
+          <input type="checkbox" id="price-toggle" />
+          <span class="toggle-slider"></span>
+        </label>
+        <span>Yearly <span class="save-badge">Save 20%</span></span>
+      </div>
+
+      <div class="pricing-grid" id="pricing-grid">
+
+        <div class="pricing-card" id="price-starter">
+          <div class="price-tier">Starter</div>
+          <div class="price-amount">
+            <span class="price-currency">₹</span>
+            <span class="price-num monthly-price">15,000</span>
+            <span class="price-period">/month</span>
+          </div>
+          <p class="price-desc">Perfect for small businesses getting started online.</p>
+          <ul class="price-features">
+            <li>✓ 5-Page Website Design</li>
+            <li>✓ Basic SEO Setup</li>
+            <li>✓ Mobile Responsive</li>
+            <li>✓ Google Analytics Integration</li>
+            <li>✓ 1 Month Support</li>
+            <li class="disabled">✗ Meta Ads Management</li>
+            <li class="disabled">✗ Monthly Reports</li>
+          </ul>
+          <a href="#contact" class="btn-outline" id="price-starter-btn">Get Started</a>
+        </div>
+
+        <div class="pricing-card card-popular" id="price-growth">
+          <div class="popular-badge">Most Popular ⚡</div>
+          <div class="price-tier">Growth</div>
+          <div class="price-amount">
+            <span class="price-currency">₹</span>
+            <span class="price-num monthly-price">35,000</span>
+            <span class="price-period">/month</span>
+          </div>
+          <p class="price-desc">For growing businesses ready to scale their digital presence.</p>
+          <ul class="price-features">
+            <li>✓ 10-Page Custom Website</li>
+            <li>✓ Full SEO Campaign</li>
+            <li>✓ Meta Ads Management (₹20K ad spend)</li>
+            <li>✓ Monthly Performance Reports</li>
+            <li>✓ Social Media Management</li>
+            <li>✓ 3 Months Support</li>
+            <li>✓ CRO Optimization</li>
+          </ul>
+          <a href="#contact" class="btn-primary" id="price-growth-btn">Get Started</a>
+        </div>
+
+        <div class="pricing-card" id="price-enterprise">
+          <div class="price-tier">Enterprise</div>
+          <div class="price-amount">
+            <span class="price-currency">₹</span>
+            <span class="price-num monthly-price">75,000</span>
+            <span class="price-period">/month</span>
+          </div>
+          <p class="price-desc">Full-service digital dominance for established businesses.</p>
+          <ul class="price-features">
+            <li>✓ Unlimited Pages & Features</li>
+            <li>✓ Advanced SEO & Link Building</li>
+            <li>✓ Full Meta Ads Suite</li>
+            <li>✓ Google Ads Management</li>
+            <li>✓ Email Marketing Automation</li>
+            <li>✓ Dedicated Account Manager</li>
+            <li>✓ 24/7 Priority Support</li>
+          </ul>
+          <a href="#contact" class="btn-outline" id="price-enterprise-btn">Contact Us</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="section-tag">Get In Touch</div>
+          <h2 class="section-title">Ready to <span class="gradient-text">Transform</span> Your Business?</h2>
+          <p class="contact-desc">Let's talk about your project. Fill out the form and our team will get back to you within 24 hours with a free consultation.</p>
+
+          <div class="contact-details">
+            <div class="contact-detail" id="contact-email">
+              <div class="contact-detail-icon">📧</div>
+              <div>
+                <strong>Email Us</strong>
+                <span>hello@flavinweb.com</span>
+              </div>
+            </div>
+            <div class="contact-detail" id="contact-phone">
+              <div class="contact-detail-icon">📞</div>
+              <div>
+                <strong>Call Us</strong>
+                <span>+91 98765 43210</span>
+              </div>
+            </div>
+            <div class="contact-detail" id="contact-location">
+              <div class="contact-detail-icon">📍</div>
+              <div>
+                <strong>Visit Us</strong>
+                <span>Chennai, Tamil Nadu, India</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links" id="social-links">
+            <a href="#" class="social-link" id="social-instagram" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+            <a href="#" class="social-link" id="social-facebook" aria-label="Facebook">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="#" class="social-link" id="social-linkedin" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="#" class="social-link" id="social-twitter" aria-label="Twitter/X">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap">
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="john@company.com" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" />
+              </div>
+              <div class="form-group">
+                <label for="service">Service Needed</label>
+                <select id="service" name="service">
+                  <option value="">Select a service...</option>
+                  <option value="web">Web Development</option>
+                  <option value="seo">SEO Optimization</option>
+                  <option value="meta">Meta Ads</option>
+                  <option value="marketing">Digital Marketing</option>
+                  <option value="ecomm">E-Commerce</option>
+                  <option value="all">Full Package</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group full">
+              <label for="budget">Monthly Budget</label>
+              <select id="budget" name="budget">
+                <option value="">Select budget range...</option>
+                <option value="<15k">Under ₹15,000</option>
+                <option value="15-35k">₹15,000 – ₹35,000</option>
+                <option value="35-75k">₹35,000 – ₹75,000</option>
+                <option value=">75k">Above ₹75,000</option>
+              </select>
+            </div>
+            <div class="form-group full">
+              <label for="message">Tell Us About Your Project</label>
+              <textarea id="message" name="message" rows="5" placeholder="Describe your business goals, current challenges, and what you hope to achieve..."></textarea>
+            </div>
+            <button type="submit" class="btn-primary full-btn" id="contact-submit-btn">
+              <span>Send Message</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2L15 22l-4-9-9-4 20-7z"/></svg>
+            </button>
+            <div class="form-success" id="form-success">
+              <div class="success-icon">🎉</div>
+              <strong>Message Sent!</strong>
+              <p>We'll get back to you within 24 hours. Thank you!</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand" id="footer-brand">
+            <a href="#home" class="nav-logo">
+              <div class="logo-icon">
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+                  <defs>
+                    <linearGradient id="logoGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" style="stop-color:#8B5CF6"/>
+                      <stop offset="50%" style="stop-color:#06B6D4"/>
+                      <stop offset="100%" style="stop-color:#EC4899"/>
+                    </linearGradient>
+                  </defs>
+                  <path d="M6 6 L18 2 L30 6 L30 20 C30 28 18 34 18 34 C18 34 6 28 6 20 Z" fill="url(#logoGrad2)" opacity="0.9"/>
+                  <path d="M12 16 L16 20 L24 12" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <span class="logo-text">Flavin<span class="logo-accent">Web</span></span>
+            </a>
+            <p>Crafting premium digital experiences that drive real business growth through cutting-edge technology and strategic marketing.</p>
+            <div class="footer-social">
+              <a href="#" aria-label="Instagram" id="footer-ig">📸</a>
+              <a href="#" aria-label="Facebook" id="footer-fb">👥</a>
+              <a href="#" aria-label="LinkedIn" id="footer-li">💼</a>
+              <a href="#" aria-label="Twitter" id="footer-tw">🐦</a>
+            </div>
+          </div>
+
+          <div class="footer-col" id="footer-services">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#services">Web Development</a></li>
+              <li><a href="#services">SEO Optimization</a></li>
+              <li><a href="#services">Meta Ads Management</a></li>
+              <li><a href="#services">Digital Marketing</a></li>
+              <li><a href="#services">E-Commerce Solutions</a></li>
+              <li><a href="#services">UI/UX Design</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col" id="footer-company">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#portfolio">Our Work</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col footer-newsletter" id="footer-newsletter">
+            <h4>Get Free Growth Tips</h4>
+            <p>Subscribe to our newsletter for weekly digital marketing insights.</p>
+            <div class="newsletter-form">
+              <input type="email" id="newsletter-email" placeholder="your@email.com" />
+              <button id="newsletter-btn" aria-label="Subscribe">→</button>
+            </div>
+            <div class="footer-certifications">
+              <span class="cert-badge">🏅 Google Partner</span>
+              <span class="cert-badge">🏅 Meta Partner</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2024 Flavin Web Company. All rights reserved. Made with ❤️ in Chennai, India.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
